@@ -12,8 +12,12 @@
         </div>
         <div class="collapse navbar-collapse navbar-main-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li>
-                </li>
+              <li class="{{ 'blog' == currentPage ? 'active' }}">
+                  <a href="{{ 'blog/blog'|page }}">Blog</a>
+              </li>
+              <li class="{{ 'about' == currentPage ? 'active' }}">
+                  <a href="{{ 'samples/about'|page }}">About</a>
+              </li>
             </ul>
         </div>
     </div>
