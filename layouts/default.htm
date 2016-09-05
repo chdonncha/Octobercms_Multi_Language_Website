@@ -1,4 +1,7 @@
 description = "Default layout"
+
+[localePicker]
+forceUrl = 0
 ==
 <!DOCTYPE html>
 <html>
@@ -34,6 +37,7 @@ description = "Default layout"
         <!-- Footer -->
         <footer id="layout-footer">
             {% partial "footer" %}
+            {% component 'localePicker' %}
         </footer>
 
         <!-- Scripts -->
