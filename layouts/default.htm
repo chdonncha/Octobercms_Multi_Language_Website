@@ -37,7 +37,15 @@ forceUrl = 0
         <!-- Footer -->
         <footer id="layout-footer">
             {% partial "footer" %}
-            {% component 'localePicker' %}
+            <div class="container">
+                <nav class="pull-left">
+                    <ul>
+                        </li>
+                            Language {% component 'localePicker' %}
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </footer>
 
         <!-- Scripts -->
